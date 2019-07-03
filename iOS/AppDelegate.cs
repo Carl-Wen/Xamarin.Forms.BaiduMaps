@@ -14,8 +14,7 @@ namespace Xamarin.Forms.BaiduMaps.Sample.iOS
             FormsBaiduMaps.Init("B3iCnaZ9pv6UDbenWBEHdfY36dsVLUnM");
 
             LoadApplication(new App());
-            var id = NSBundle.MainBundle.BundleIdentifier;
-            System.Console.WriteLine("NSBundle.MainBundle.BundleIdentifier: " + id);
+
             return base.FinishedLaunching(app, options);
         }
     }
